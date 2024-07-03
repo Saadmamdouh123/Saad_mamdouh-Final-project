@@ -1,0 +1,39 @@
+  nav{
+       background-color: rgb(0, 0, 0);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 10px;
+       color: white;
+       .right-side-nav {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+            .right-side-child a {
+                text-decoration: none;
+                color: white;
+            }
+            .right-side-child a:hover {
+                color: #ffa012;
+            }
+
+       }
+       .right-side-child {
+        display: flex;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+       }
+       .btn-1 button {
+        background-color:#ffa012;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 8px;
+        // .btn-1:hover {
+        //     background-color:#aa6703;
+        //     color: white;
+        // }
+       }
+
+}
