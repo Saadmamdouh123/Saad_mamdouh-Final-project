@@ -1,0 +1,43 @@
+.section-2 {
+//   display: flex;
+//   flex-direction: column;
+//   text-align: center;
+//   justify-content: center;
+//   background-color: red;
+//   padding: 150px;
+//   background-image: url(../../../../public/images/slide-1.jpg);
+//   background-size: cover;
+  .Hero-image {
+    background-image: url(../../../../public/images/slide-2.jpg);
+  }
+  h3 {
+    color: white;
+  }
+  p {
+    color: #e4e4e4ae;
+  }
+  .CTA-1 a {
+    // background-color:#ffa012;
+    padding: 5px 10px;
+    border: solid 2px #ffa012;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffa012;
+    button:hover {
+        background-color: #ffa012;
+        color: white;
+    }
+  }
+}
+
+
+.carousel-caption{
+    bottom: 270px;
+}
+.CTA-1 button {
+    padding: 5px 10px;
+    background: none;
+    border: solid 2px #ffa012 ;
+    color: white;
+    border-radius: 4px;
+}

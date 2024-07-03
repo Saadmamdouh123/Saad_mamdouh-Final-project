@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
- }
-@import"./modules/home/about";
+}
+
+@import "./modules/home/about";
 @import "./modules/home/gallery";
 @import "./modules/home/navbar";
+@import "./modules/home/section-2";

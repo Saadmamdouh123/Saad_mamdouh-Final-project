@@ -11851,12 +11851,15 @@ textarea.form-control-lg {
 }
 
 nav {
-  background-color: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
   color: white;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
 }
 nav .right-side-nav {
   display: flex;
@@ -11882,6 +11885,39 @@ nav .btn-1 button {
   border: none;
   padding: 5px 20px;
   border-radius: 8px;
+}
+
+.section-2 .Hero-image {
+  background-image: url(../../../../public/images/slide-2.jpg);
+}
+.section-2 h3, .section-2 .h3 {
+  color: white;
+}
+.section-2 p {
+  color: rgba(228, 228, 228, 0.6823529412);
+}
+.section-2 .CTA-1 a {
+  padding: 5px 10px;
+  border: solid 2px #ffa012;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffa012;
+}
+.section-2 .CTA-1 a button:hover {
+  background-color: #ffa012;
+  color: white;
+}
+
+.carousel-caption {
+  bottom: 270px;
+}
+
+.CTA-1 button {
+  padding: 5px 10px;
+  background: none;
+  border: solid 2px #ffa012;
+  color: white;
+  border-radius: 4px;
 }
 
 /*# sourceMappingURL=app.css.map */
