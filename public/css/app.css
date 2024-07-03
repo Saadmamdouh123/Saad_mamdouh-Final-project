@@ -11938,4 +11938,27 @@ nav .btn-1 button {
   font-weight: 500;
 }
 
+.section-4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.Subsection-4 {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.sub-child {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 10px 10px 10px #f7efe0;
+  border-radius: 10px;
+}
+
+.sub-child:hover {
+  background-color: #ffa012;
+  color: white;
+}
+
 /*# sourceMappingURL=app.css.map */
