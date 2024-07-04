@@ -12043,8 +12043,43 @@ span {
   width: 500px;
 }
 
-form .input-1 {
+form {
+  background-color: #fff3e0;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 10px #f7efe0;
+}
+form .sub-form {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+form input {
+  width: 30%;
+  height: 50px;
+}
+form .sub-form-2 {
+  display: flex;
+  justify-content: center;
   width: 100%;
+}
+form .sub-form-2 textarea {
+  width: 91%;
+}
+
+.liv-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.liv-btn button {
+  background-color: #ffa012;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
