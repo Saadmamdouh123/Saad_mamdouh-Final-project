@@ -11986,6 +11986,14 @@ nav .btn-1 button {
   transform: translateY(-3px);
 }
 
+.section-5 {
+  padding: 50px;
+  text-align: center;
+}
+.section-5 h2, .section-5 .h2 {
+  font-family: satisfy;
+}
+
 span {
   color: #ffa012;
 }
