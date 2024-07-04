@@ -1,0 +1,32 @@
+.section-8 {
+    .sect-sub-8{
+        text-align: center;
+        padding-top: 10px;
+        // background-color: red;
+    }
+}
+.sec-8-forum{
+    // background-color: blue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .sec-8-child{
+        
+        .sec-8-child-1{
+            display: flex;
+            gap: 10px;
+            // padding-bottom: 10px;
+            padding-bottom: 10px;
+            background-color: red;
+            width: 500px;
+        }
+    }
+}
+
+form {
+ 
+    .input-1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+span {
+  color: #ffa012;
+}
+.section-7 {
+  padding: 30px;
+  background-image: url(../../../../public/images/events-bg.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+.section-7 h6 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.section-7 h5 {
+}
+.sub-section-7 {
+  display: flex;
+  gap: 20px;
+  .description-1 h5 {
+            color: white;
+  }
+  .description-1 p {
+            color: white;
+  }
+}
+.section-7-liv {
+    position: relative;
+    text-align: center;
+    color: white;
+    .section-7-txt {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px 2px 5px rgba(241, 241, 241, 0.57);
+    }
+}

@@ -11954,11 +11954,97 @@ nav .btn-1 button {
   padding: 10px;
   box-shadow: 10px 10px 10px #f7efe0;
   border-radius: 10px;
+  transition: 0.5s;
+}
+.sub-child h4, .sub-child .h4 {
+  transition: 0.5s;
+}
+.sub-child h5, .sub-child .h5 {
+  transition: 0.5s;
+}
+.sub-child p {
+  transition: 0.5s;
 }
 
 .sub-child:hover {
   background-color: #ffa012;
   color: white;
+}
+
+.sub-child:hover h4, .sub-child:hover .h4 {
+  transform: translatey(-7px);
+}
+
+.sub-child:hover h5, .sub-child:hover .h5 {
+  transform: translateY(-5px);
+}
+
+.sub-child:hover p {
+  transform: translateY(-3px);
+}
+
+span {
+  color: #ffa012;
+}
+
+.section-7 {
+  padding: 30px;
+  background-image: url(../../../../public/images/events-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-7 h6, .section-7 .h6 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.sub-section-7 {
+  display: flex;
+  gap: 20px;
+}
+.sub-section-7 .description-1 h5, .sub-section-7 .description-1 .h5 {
+  color: white;
+}
+.sub-section-7 .description-1 p {
+  color: white;
+}
+
+.section-7-liv {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.section-7-liv .section-7-txt {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px rgba(241, 241, 241, 0.57);
+}
+
+.section-8 .sect-sub-8 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sec-8-forum {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-8-forum .sec-8-child .sec-8-child-1 {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  background-color: red;
+  width: 500px;
+}
+
+form .input-1 {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
