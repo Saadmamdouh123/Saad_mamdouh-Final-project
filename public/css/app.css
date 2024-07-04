@@ -11861,6 +11861,9 @@ nav {
   z-index: 99999;
   width: 100%;
 }
+nav h4, nav .h4 {
+  font-family: Satisfy;
+}
 nav .right-side-nav {
   display: flex;
   gap: 40px;
@@ -12102,6 +12105,27 @@ form .sub-form-2 textarea {
 }
 .section-9 .sect-img:hover {
   transform: scale(1.1);
+}
+
+.section-10 {
+  text-align: center;
+  padding-top: 10px;
+  padding: 20px;
+  height: 60vh;
+  background-image: url(../../../../public/images/testimonials-bg.jpg);
+  background-size: cover;
+}
+.section-10 img {
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+.section-10 .icon-star {
+  color: #ffa012;
+}
+
+@font-face {
+  font-family: Satisfy;
+  src: url(../font/Satisfy-Regular.ttf);
 }
 
 /*# sourceMappingURL=app.css.map */
