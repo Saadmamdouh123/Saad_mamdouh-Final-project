@@ -12123,6 +12123,13 @@ form .sub-form-2 textarea {
   color: #ffa012;
 }
 
+.section-12 {
+  text-align: center;
+  padding-top: 20px;
+}
+.section-12 h3, .section-12 .h3 {
+  font-family: satisfy;
+}
 @font-face {
   font-family: Satisfy;
   src: url(../font/Satisfy-Regular.ttf);
