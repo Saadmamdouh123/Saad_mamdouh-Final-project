@@ -1,0 +1,18 @@
+.section-9 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #faf6f0df;
+    .sub-9{
+        padding: 10px;
+    }
+    .sub-9-child{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+    .sect-img:hover {
+        transform: scale(1.1);
+        }
+}

@@ -12024,6 +12024,9 @@ span {
   text-shadow: 2px 2px 5px rgba(241, 241, 241, 0.57);
 }
 
+.section-8 {
+  padding-bottom: 10px;
+}
 .section-8 .sect-sub-8 {
   text-align: center;
   padding-top: 10px;
@@ -12080,6 +12083,25 @@ form .sub-form-2 textarea {
   border-radius: 8px;
   color: white;
   text-align: center;
+}
+
+.section-9 {
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(250, 246, 240, 0.8745098039);
+}
+.section-9 .sub-9 {
+  padding: 10px;
+}
+.section-9 .sub-9-child {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+.section-9 .sect-img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=app.css.map */
