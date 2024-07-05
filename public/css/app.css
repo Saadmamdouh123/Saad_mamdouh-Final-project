@@ -11892,7 +11892,8 @@ nav .btn-1 button {
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
   nav {
-    width: 100%;
+    min-width: 425px;
+    max-width: 900px;
   }
   nav .nav-head h4, nav .nav-head .h4 {
     text-align: center;
@@ -11920,6 +11921,10 @@ nav .btn-1 button {
 .section-2 .CTA-1 a button:hover {
   background-color: #ffa012;
   color: white;
+}
+
+video {
+  padding-bottom: 20px;
 }
 
 .carousel-caption {
@@ -12013,6 +12018,17 @@ nav .btn-1 button {
 
 .section-6 {
   font-family: satisfy;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.icon {
+  font-size: 30px;
+  right: 0;
 }
 
 span {
@@ -12188,6 +12204,12 @@ form .sub-form-2 textarea {
   justify-content: center;
 }
 
+@media (max-width: 425px) {
+  .sub-chefs-1 {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
 .section-14 {
   padding: 10px;
   background-color: #FFF8F3;
@@ -12207,6 +12229,12 @@ form .sub-form-2 textarea {
   gap: 10px;
 }
 
+@media (max-width: 425px) {
+  .sub-14 {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
 .footer {
   text-align: center;
   padding: 50px;
@@ -12217,6 +12245,9 @@ form .sub-form-2 textarea {
   font-family: satisfy;
 }
 .footer p {
+  color: white;
+}
+.footer a:hover {
   color: white;
 }
 

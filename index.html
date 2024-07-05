@@ -18,10 +18,10 @@
           <a href="#">Menu</a>
           <a href="#">Specials</a>
           <a href="#">Events</a>
-          <a href="#">Chefs</a>
+          <a href="#chefs">Chefs</a>
           <a href="#">Gallery</a>
           <a href="#">Dropdown</a>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="btn-1">
           <button>Book table</button>
@@ -60,7 +60,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h2>Delicious Food</h2>
               <p class="text-light">Lorem ipsum dolor sit amet consectetur.</p>
               <div class="CTA-1">
@@ -75,7 +75,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h2>Delicious food</h2>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
               <div class="CTA-1">
@@ -90,7 +90,7 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h2>Delicious Food</h2>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
               <div class="CTA-1">
@@ -123,16 +123,16 @@
 
     <div id="About" class="section-3">
       <div>
-        <video
-          width="520"
-          height="440"
+        <video class="video"
+          width="400"
+          height="400"
           controls
           poster="./public/images/about.jpg"
         >
           <source src="./public/video/videoplayback.mp4" type="video/mp4" />
         </video>
       </div>
-      <div>
+      <div class="p-3">
         <h5>Lorem ipsum dolor sit amet consectetur.</h5>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br />
@@ -760,11 +760,11 @@
     <section class="chefs-section p-5">
       <div class="position-relative sub-chefs">
         <h2>Our <span>Proffesional</span> Chefs</h2>
-        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        <p class="text-light">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
       </div>
       <div class="sub-chefs-1 d-flex gap-5 align-content-center justify-content-center">
         <div class="sub-chef-liv position-relative">
-          <div class="imag-chefs"><img src="./public/images/chefs-1.jpg" width="300px" alt=""></div>
+          <div class="imag-chefs"><img src="./public/images/chefs-1.jpg" class="img-responsive" width="250px" alt=""></div>
           <div class="bg-white w-75 chefs-background p-1 position-absolute top-100 start-50 translate-middle">
             <p>Walter White</p>
             <p>Master Chef</p>
@@ -777,7 +777,7 @@
           </div>
         </div>
         <div class="position-relative">
-          <div><img src="./public/images/chefs-2.jpg" width="300px" alt=""></div>
+          <div><img src="./public/images/chefs-2.jpg" class="img-responsive" width="250px" alt=""></div>
           <div class="bg-white w-75 chefs-background p-1 position-absolute top-100 start-50 translate-middle">
             <p>Walter White</p>
             <p>Master Chef</p>
@@ -789,8 +789,8 @@
             </div>
           </div>
         </div>
-        <div class="position-relative">
-          <div><img src="./public/images/chefs-3.jpg" class="" width="300px" alt=""></div>
+        <div id="chefs" class="position-relative">
+          <div><img src="./public/images/chefs-3.jpg" class="img-responsive" width="250px" alt=""></div>
           <div class="bg-white w-75 chefs-background p-1 position-absolute top-100 start-50 translate-middle">
             <p>Walter White</p>
             <p>Master Chef</p>
@@ -870,7 +870,7 @@
       </button>
     </div>
 
-    <div class="section-12">
+    <div id="contact" class="section-12">
       <h3><span>Contact</span> us</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ullam. <br> Lorem ipsum dolor sit amet consectetur.</p>
       <div>
@@ -886,28 +886,28 @@
      <div class="sect-14">
       <div class="sec-14">
         <div class="sub-14">
-          <div><i class="bi bi-geo-alt-fill text-warning"></i></div>
+          <i class="bi bi-geo-alt-fill text-warning"></i>
           <div>
             <h5 class="m-0">Lorem, ipsum dolor.</h5>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="sub-14">
-          <div><i class="bi bi-geo-alt-fill text-warning"></i></div>
+          <i class="bi bi-geo-alt-fill text-warning"></i>
           <div>
             <h5 class="m-0">Lorem, ipsum dolor.</h5>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="sub-14">
-          <div><i class="bi bi-geo-alt-fill text-warning"></i></div>
+          <i class="bi bi-geo-alt-fill text-warning"></i>
           <div>
             <h5 class="m-0">Lorem, ipsum dolor.</h5>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="sub-14">
-          <div><i class="bi bi-geo-alt-fill text-warning"></i></div>
+          <i class="bi bi-geo-alt-fill text-warning"></i>
           <div>
             <h5 class="m-0">Lorem, ipsum dolor.</h5>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -941,16 +941,21 @@
         <h3>Delicious</h3>
         <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
         <div class="d-flex align-items-center justify-content-center gap-2">
-          <div><i class="bi bi-instagram text-light"></i></div>
-          <div><i class="bi bi-youtube text-light"></i></div>
-          <div><i class="bi bi-facebook text-light"></i></div>
-          <div><i class="bi bi-twitter text-light"></i></div>
-          <div><i class="bi bi-linkedin text-light"></i></div>
+          <div><a href=""><i class="bi bi-instagram text-warning"></i></a></div>
+          <div><a href=""><i class="bi bi-youtube text-warning"></i></a></div>
+          <div><a href=""><i class="bi bi-facebook text-warning"></i></a></div>
+          <div><a href=""><i class="bi bi-twitter text-warning"></i></a></div>
+          <div><a href=""><i class="bi bi-linkedin text-warning"></i></a></div>
         </div>
         <br>
         <p>© Copyright Delicious. All Rights Reserved</p>
         <p>Designed by <span>BootstrapMade</span></p>
     </div>
+
+    <a href="#" class="back-to-top">
+      <span class="icon"><i class="bi bi-arrow-up-circle-fill"></i></span>
+    </a>
+
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
