@@ -11890,6 +11890,17 @@ nav .btn-1 button {
   border-radius: 8px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  nav {
+    width: 100%;
+  }
+  nav .nav-head h4, nav .nav-head .h4 {
+    text-align: center;
+  }
+  nav .right-side-nav {
+    display: none;
+  }
+}
 .section-2 .Hero-image {
   background-image: url(../../../../public/images/slide-2.jpg);
 }
@@ -12120,11 +12131,18 @@ form .sub-form-2 textarea {
   gap: 5px;
   padding-bottom: 5px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .section-9 .sect-img:hover {
   transform: scale(1.1);
 }
 
+@media (max-width: 425px) {
+  .section-9 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-10 {
   text-align: center;
   padding-top: 10px;

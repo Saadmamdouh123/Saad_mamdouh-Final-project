@@ -46,6 +46,14 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 900px){
     nav{
-        
+        width: 100%;
+        .nav-head{
+    h4{
+        text-align: center;
+    }
+        }
+        .right-side-nav {
+            display: none;
+        }
     }
 }
