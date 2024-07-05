@@ -1,0 +1,25 @@
+.chefs-section {
+    text-align: center;
+    padding: 10px;
+    background-image: url(../../../../public/images/chefs-bg.jpg);
+    background-size: cover;
+    opacity: 1;
+    background-attachment: fixed;
+    h2{
+        font-family: satisfy;
+    }
+    .sub-chefs {
+        z-index: 9999;
+    }
+    .sub-chefs-1{
+        .sub-chef-liv{
+            .imag-chefs{
+            .chefs-background{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+            }
+        }
+    }
+}

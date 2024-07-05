@@ -11994,6 +11994,10 @@ nav .btn-1 button {
   font-family: satisfy;
 }
 
+.section-6 {
+  font-family: satisfy;
+}
+
 span {
   color: #ffa012;
 }
@@ -12138,6 +12142,26 @@ form .sub-form-2 textarea {
 .section-12 h3, .section-12 .h3 {
   font-family: satisfy;
 }
+.chefs-section {
+  text-align: center;
+  padding: 10px;
+  background-image: url(../../../../public/images/chefs-bg.jpg);
+  background-size: cover;
+  opacity: 1;
+  background-attachment: fixed;
+}
+.chefs-section h2, .chefs-section .h2 {
+  font-family: satisfy;
+}
+.chefs-section .sub-chefs {
+  z-index: 9999;
+}
+.chefs-section .sub-chefs-1 .sub-chef-liv .imag-chefs .chefs-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @font-face {
   font-family: Satisfy;
   src: url(../font/Satisfy-Regular.ttf);
