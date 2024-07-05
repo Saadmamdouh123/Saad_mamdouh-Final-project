@@ -11941,6 +11941,12 @@ nav .btn-1 button {
   font-weight: 500;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-4 {
   text-align: center;
   padding: 10px;
@@ -12168,6 +12174,7 @@ form .sub-form-2 textarea {
   padding: 10px;
   background-color: #FFF8F3;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 .section-14 .sect-14 {
   display: flex;
@@ -12180,6 +12187,19 @@ form .sub-form-2 textarea {
 .section-14 .sect-14 .sec-14 .sub-14 {
   display: flex;
   gap: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #35322d;
+}
+.footer h3, .footer .h3 {
+  color: #ffa012;
+  font-family: satisfy;
+}
+.footer p {
+  color: white;
 }
 
 @font-face {
