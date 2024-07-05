@@ -12146,6 +12146,21 @@ form .sub-form-2 textarea {
   text-align: center;
 }
 
+@media (max-width: 428px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-form {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+  }
+  .sub-form-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
 .section-9 {
   text-align: center;
   padding-top: 10px;
