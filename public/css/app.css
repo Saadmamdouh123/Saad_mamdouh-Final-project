@@ -11905,8 +11905,10 @@ nav .btn-1 button {
 .section-2 .Hero-image {
   background-image: url(../../../../public/images/slide-2.jpg);
 }
-.section-2 h3, .section-2 .h3 {
+.section-2 h2, .section-2 .h2 {
   color: white;
+  font-size: 50px;
+  font-family: satisfy;
 }
 .section-2 p {
   color: rgba(228, 228, 228, 0.6823529412);
@@ -11925,6 +11927,11 @@ nav .btn-1 button {
 
 video {
   padding-bottom: 20px;
+}
+
+button {
+  font-family: satisfy;
+  font-size: 20px;
 }
 
 .carousel-caption {
@@ -12008,6 +12015,12 @@ video {
   transform: translateY(-3px);
 }
 
+@media (max-width: 428px) {
+  .Subsection-4 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-5 {
   padding: 50px;
   text-align: center;

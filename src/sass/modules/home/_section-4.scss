@@ -38,3 +38,9 @@
 .sub-child:hover p {
     transform:translateY(-3px);
 }
+@media (max-width: 428px){
+    .Subsection-4{
+        display: flex;
+        flex-direction: column;
+    }
+}

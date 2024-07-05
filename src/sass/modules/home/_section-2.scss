@@ -10,8 +10,10 @@
   .Hero-image {
     background-image: url(../../../../public/images/slide-2.jpg);
   }
-  h3 {
+  h2 {
     color: white;
+    font-size: 50px;
+    font-family: satisfy;
   }
   p {
     color: #e4e4e4ae;
@@ -32,7 +34,10 @@
 video{
   padding-bottom: 20px;
 }
-
+button{
+  font-family: satisfy;
+  font-size: 20px;
+}
 
 .carousel-caption{
     bottom: 270px;
