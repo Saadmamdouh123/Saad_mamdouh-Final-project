@@ -12138,6 +12138,7 @@ form .sub-form-2 textarea {
 .section-12 {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .section-12 h3, .section-12 .h3 {
   font-family: satisfy;
@@ -12147,6 +12148,7 @@ form .sub-form-2 textarea {
   padding: 10px;
   background-image: url(../../../../public/images/chefs-bg.jpg);
   background-size: cover;
+  height: 90vh;
   opacity: 1;
   background-attachment: fixed;
 }
@@ -12160,6 +12162,24 @@ form .sub-form-2 textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-14 {
+  padding: 10px;
+  background-color: #FFF8F3;
+  padding-top: 10px;
+}
+.section-14 .sect-14 {
+  display: flex;
+  flex-direction: column;
+}
+.section-14 .sect-14 .sec-14 {
+  display: flex;
+  gap: 10px;
+}
+.section-14 .sect-14 .sec-14 .sub-14 {
+  display: flex;
+  gap: 10px;
 }
 
 @font-face {
