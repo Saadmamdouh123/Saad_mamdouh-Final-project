@@ -1,0 +1,45 @@
+.sec-2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    .left-side{
+        // background-color: green;
+        padding: 20px;
+        // p{
+        //     lin
+        // }
+        button{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .liv-1{
+            display: flex;
+            padding: 10px;
+            border-radius: 10px;            
+        }
+        .liv-1 a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .liv-1 a:hover{
+            color:red ;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .liv-1 i {
+            color: red;
+        }
+        .liv-2{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+}
