@@ -1,0 +1,54 @@
+.sec-6{
+    .btns-2{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .btns-2 button{
+        border-style: none;
+        padding: 15px;
+        // border-bottom: solid rgb(251, 0, 0) 1px;
+        background-color: #ffffff;
+        // color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .btns-2 button:hover{
+        border-bottom: solid rgb(251, 0, 0) 2px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+    .textcenter{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .textcenter h4{
+        color: #ce1212;
+        font-size: 30px;
+    }
+    .menu1{
+        display: flex;
+        justify-content: space-around;
+        .submenu1 p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    .menu2{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        .submenu2 p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    span{
+        color: #ce1212;
+        font-size: 30px;
+    }
+}
