@@ -12105,4 +12105,52 @@ nav .btn-1 button {
   font-size: 30px;
 }
 
+.sec-9 {
+  text-align: center;
+}
+.sec-9 span {
+  color: red;
+}
+
+.g1 {
+  width: 400px;
+  height: 100%;
+  box-shadow: 5px 10px 8px rgba(232, 232, 232, 0.9529411765);
+}
+
+.g2 {
+  background-color: blue;
+  width: 300px;
+  height: 100%;
+}
+
+.g3 {
+  background-color: yellow;
+  width: 300px;
+  height: 100%;
+}
+
+.ggg {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.gg1 {
+  height: 70%;
+  width: 100%;
+  background-color: green;
+}
+
+.gg2 {
+  height: 30%;
+  width: 100%;
+  background-color: rgba(227, 227, 227, 0.9215686275);
+  clip-path: polygon(100% 100%, 0% 100%, 0% 14.5%, 2% 14.38%, 4% 14.01%, 6% 13.41%, 8% 12.6%, 10% 11.61%, 12% 10.48%, 14% 9.24%, 16% 7.94%, 18% 6.62%, 20% 5.34%, 22% 4.13%, 24% 3.04%, 26% 2.11%, 28% 1.37%, 30% 0.84%, 32% 0.56%, 34% 0.51%, 36% 0.72%, 38% 1.17%, 40% 1.84%, 42% 2.71%, 44% 3.75%, 46% 4.92%, 48% 6.19%, 50% 7.5%, 52% 8.81%, 54% 10.08%, 56% 11.25%, 58% 12.29%, 60% 13.16%, 62% 13.83%, 64% 14.28%, 66% 14.49%, 68% 14.44%, 70% 14.16%, 72% 13.63%, 74% 12.89%, 76% 11.96%, 78% 10.87%, 80% 9.66%, 82% 8.38%, 84% 7.06%, 86% 5.76%, 88% 4.52%, 90% 3.39%, 92% 2.4%, 94% 1.59%, 96% 0.99%, 98% 0.62%, 100% 0.5%);
+  padding: 30px;
+}
+
 /*# sourceMappingURL=app.css.map */
