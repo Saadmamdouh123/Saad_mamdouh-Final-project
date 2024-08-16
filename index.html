@@ -13,19 +13,39 @@
       </div>
       <div class="right-side-nav">
         <div class="right-side-child">
-          <a class="Home-color" href="#">Home</a>
+          <a class="Home-color" href="#home">Home</a>
           <a href="#About">About</a>
           <a href="#menu">Menu</a>
-          <a href="#specials">Specials</a>
           <a href="#carouselExampleInterval-1">Events</a>
           <a href="#chefs">Chefs</a>
           <a href="#Gellery">Gallery</a>
           <a href="#">Dropdown</a>
           <a href="#contact">Contact</a>
         </div>
-        <div class="btn-1">
-          <button>Book table</button>
+
+
+        <div class="open-modal-btn-wrapper">
+          <button class="open-modal-btn">
+              sign up
+          </button>
         </div>
+        <div class="modal-overlay hide">
+          <div class="modal-wrapper">
+              <div class="close-btn-wrapper">
+                  <button class="close-modal-btn">
+                    <i class="bi bi-x-circle text-danger"></i>                  
+                  </button>
+              </div>
+              <h1 class="text-black">Sign Up</h1>
+              <div class="modal-content">
+                <label for="fname">Your Email:</label>
+                <input type="email" name="fname"><br><br>
+                <label for="lname">Your Password:</label>
+                <input type="password" name="lname"><br><br>
+                <input type="submit" value="Submit">
+              </div>
+          </div>
+      </div>
       </div>
     </nav>
 
@@ -53,7 +73,7 @@
       <h4>Learn More <span class="text-danger">About Us</span></h4>
     </div>
 
-    <section class="sec-3">
+    <section class="sec-3" id="About">
       <div class="left-side">
           <div class="liv-4">
             <img class="mb-2" src="./public/images/about.jpg" width="700px"  alt="">
@@ -136,17 +156,17 @@
       </div>
     </section>
 
-    <div class="text-center pt-3 ">
+    <div id="menu" class="text-center pt-3 ">
       <p>Our Menu</p>
       <h4>Check Our <span class="text-danger">Yummy Menu</span></h4>
     </div>
 
-    <section class="sec-6">
+    <section id="specials" class="sec-6">
       <div class="btns-2 text-center">
-        <button id="btns-1">Starters</button>
-        <button id="btns-2">Breakfast</button>
-        <button id="btns-3">Lunch</button>
-        <button id="btns-4">Dinner</button>
+        <button class="llll" id="btns-1">Starters</button>
+        <button class="llll" id="btns-2">Breakfast</button>
+        <button class="llll" id="btns-3">Lunch</button>
+        <button class="llll" id="btns-4">Dinner</button>
       </div>
 
       <div class="textcenter">
@@ -199,16 +219,116 @@
     </section>
 
     <section class="sec-7">
+      <div class="center">
+        <p class="text-center">TESTIMONIALS</p>
+        <h2 class="text-center">What Are They <span>Saying About Us</span></h2>
+      </div>
+      <div id="carousel1" class="carousel-container">
+        <div class="carousel">
+          <div class="slide">
+            <div class="after">
+              <h6><i class="bi bi-quote quote-icon-right"></i>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Ut est
+                odit amet molestias provident, <br>laboriosam perferendis maxime
+                voluptatem ipsum dicta similique. Deleniti rem quasi in
+                necessitatibus, labore<i class="bi bi-quote quote-icon-left"></i> 
+              </h6>
+              <p>Semione</p>
+              <h6>Product Designer</h6>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+            </div>
+            <div>
+              <img id="img-slide"
+                src="./public/images/testimonials-4.jpg"
+                alt=""
+              />
+            </div>
+  
+          </div>
+          <div class="slide">
+            <div class="after">
+              <h6><i class="bi bi-quote quote-icon-right "></i>.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                odit amet molestias provident <br>, laboriosam perferendis maxime
+                voluptatem ipsum dicta similique. <br>Deleniti rem quasi in
+                necessitatibus, labore<i class="bi bi-quote quote-icon-left "></i> 
+              </h6>
+              <p>Mac Allister</p>
+              <h6>UI/UX Designer</h6>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+            </div>
+            <div>
+              <img id="img-slide"
+                src="./public/images/testimonials-3.jpg"
+                alt=""
+              />
+            </div>
+  
+          </div>
+          <div class="slide">
+            <div class="after">
+              <h6><i class="bi bi-quote quote-icon-right "></i>.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                odit amet molestias provident,<br> laboriosam perferendis maxime
+                voluptatem ipsum dicta similique. <br>Deleniti rem quasi in
+                necessitatibus, labore<i class="bi bi-quote quote-icon-left "></i> 
+              </h6>
+              <p>Dominik Scobozlai</p>
+              <h6>Web Developper</h6>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+            </div>
+            <div>
+              <img id="img-slide"
+                src="./public/images/testimonials-2.jpg" width="20"
+                alt=""
+              />
+            </div>
+  
+          </div>
+          <div class="slide">
+            <div class="after">
+              <h6><i class="bi bi-quote quote-icon-right "></i>.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                odit amet molestias provident,<br> laboriosam perferendis maxime
+                voluptatem ipsum dicta similique.<br> Deleniti rem quasi in
+                necessitatibus, labore<i class="bi bi-quote quote-icon-left "></i> 
+              </h6>
+              <p>Van Dijk</p>
+              <h6>Software Engineer</h6>
+              <i  class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+            </div>
+            <div>
+              <img id="img-slide"
+                src="./public/images/testimonials-1.jpg"
+                alt=""
+              />
+            </div>
+  
+          </div>
+        </div>
 
+        <button carouselBtn="carousel1" class="next">Next</button>
+      </div>
     </section>
 
     <section class="sec-8">
 
     </section>
 
-    <section class="sec-9">
+    <section id="chefs" class="sec-9">
       <p>chefs</p>
-      <h3>Our Professional <span>chefs</span></h3>
+      <h3>Our Professional <span class="text-danger">chefs</span></h3>
       <div class="ggg">
         <div class="g1">
             <div class="gg1">
@@ -268,9 +388,115 @@
       </div>
     </section>
 
-    <section class="sec-11">
-      
+    <section id="contact" class="sec-11">
+      <p>Contact</p>
+      <h3>Need Help? <span>Contact Us</span></h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d-71.06144868414941!3d42.35871684532834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a3a4435d7f%3A0x1cf92b44b400acf2!2sBoston%20Public%20Garden!5e0!3m2!1sen!2sus!4v1611261890646!5m2!1sen!2sus" 
+        width="90%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
+
+    <div class="d-flex gap-3 p-4">
+      <div class="location">
+        <div class="sub-loc">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="subs-loc">
+          <h5>Address</h5>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+      </div>
+      
+      <div class="location">
+        <div class="sub-loc">
+          <i class="bi bi-telephone"></i>        
+        </div>
+        <div class="subs-loc">
+          <h5>Call Us</h5>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex gap-3 p-4">
+      <div class="location">
+        <div class="sub-loc">
+          <i class="bi bi-envelope"></i>        
+        </div>
+        <div class="subs-loc">
+          <h5>Email Us</h5>
+          <p>info@example.com</p>
+        </div>
+      </div>
+      
+      <div class="location">
+        <div class="sub-loc">
+          <i class="bi bi-clock"></i>        
+        </div>
+        <div class="subs-loc">
+          <h5>Opening Hours</h5>
+          <p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="loca-res">
+      <form class="sub-loc">
+        <input type="text" id="fname" placeholder="Your Name" name="fname"><br>
+        <input type="text" id="lname" placeholder="Your Email" name="lname">
+      </form>
+      <form class="sub-loc1">
+        <input class="w-100" type="text" id="fname" placeholder="Your Subject" name="fname"><br>
+      </form>
+
+      <textarea class="sub-loc2" id="w3review" name="w3review" placeholder="message" rows="4" cols="50">
+      </textarea>
+      <div class="btndiv"><button>Send a Message</button></div>
+    </div>
+   
+    <footer>
+      <div class="big-div">
+        <div class="sub-big">
+          <div><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <p class="text-white">Address</p>
+            <p class="text-white">A108 Adam Street<br>New York, NY 535022</p>
+          </div>
+        </div>
+        <div class="sub-big">
+          <div><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <p class="text-white">Opening Hours</p>
+            <p class="text-white">Phone: +1 5589 55488 55<br>
+              Email: info@example.com</p>
+          </div>
+        </div>
+        <div class="sub-big">
+          <div><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <p class="text-white">Address</p>
+            <p class="text-white">Mon-Sat: 11AM - 23PM<br>
+              Sunday: Closed</p>
+          </div>
+        </div>
+
+        <div class="follow">
+          <p class="text-white">follow</p>
+          <div class="sub-follow">
+            <div><i class="bi bi-twitter-x"></i></div>
+            <div><i class="bi bi-facebook"></i></div>
+            <div><i class="bi bi-instagram"></i></div>
+            <div><i class="bi bi-linkedin"></i></div>
+          </div>
+        </div>
+      </div>
+     <div class="copyright">
+      <p class="text-white text-center">© Copyright Yummy All Rights Reserved</p>
+      <p class="text-white text-center">Designed by <span>BootstrapMade</span></p>
+     </div>
+    </footer>
+
+    <div class="back-top" id="home">
+      <i class="bi bi-arrow-up-circle-fill" id="home"></i>
+    </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./public/js/app.js"></script>
   </body>

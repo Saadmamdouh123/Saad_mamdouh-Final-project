@@ -1,0 +1,80 @@
+.sec-11{
+    text-align: center;
+    padding-bottom: 20px;
+    span{
+        color:red;
+    }
+    .sub11{
+        height: 80vh;
+        width: 90%;
+        background-color: red;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+.location{
+    box-shadow: 8px 10px 8px 8px #e8e8e8f3;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    .sub-loc{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subs-loc{
+
+    }
+}
+i{
+    color: white;
+}
+
+.loca-res{
+    height: 80vh;
+    width: 90%;
+    box-shadow: 8px 10px 8px 8px #e8e8e8f3;
+    margin: auto;
+    padding: 40px;
+    // padding-bottom: 30px;
+    .sub-loc{
+        display: flex;
+        gap: 4px;
+        padding: 10px;
+    }
+    input[type=text] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      
+    }
+    
+    .sub-loc1{
+        width: 100%;
+        padding: 10px;
+    }
+    .sub-loc2{
+        width: 100%;
+        height: 40vh;
+        // padding: 20px;
+    }
+    .btndiv{
+        text-align: center;
+        padding-top: 20px;
+    }
+    button{
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        border: none;
+    }

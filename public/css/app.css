@@ -11875,6 +11875,7 @@ nav .right-side-nav {
 nav .right-side-nav .right-side-child a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  padding-right: 20px;
 }
 nav .right-side-nav .right-side-child a:hover {
   color: #ff0101;
@@ -12066,6 +12067,7 @@ nav .btn-1 button {
   border-style: none;
   padding: 15px;
   background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 10px;
 }
 .sec-6 .btns-2 button:hover {
@@ -12103,6 +12105,117 @@ nav .btn-1 button {
 .sec-6 span {
   color: #ce1212;
   font-size: 30px;
+}
+
+.section7 {
+  background-color: rgb(112, 112, 112);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  padding: 7vh;
+}
+.section7 .center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section7 .center p {
+  text-align: center;
+  margin: auto;
+}
+.section7 .center h2, .section7 .center .h2 {
+  text-align: center;
+}
+.section7 .center h2 span, .section7 .center .h2 span {
+  color: rgb(213, 53, 53);
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+}
+.carousel .after {
+  position: relative;
+  width: 50%;
+}
+.carousel .after::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: -5%;
+  background-color: rgb(213, 53, 53);
+}
+.carousel .after h6, .carousel .after .h6 {
+  width: 53vw;
+}
+.carousel .after p {
+  text-align: start;
+}
+.carousel div img {
+  border-radius: 50%;
+}
+
+.carousel-container {
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  width: 80vw;
+  padding-inline: 5vw;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15vw;
+  margin-left: 20px;
+}
+
+.slide img {
+  width: 100px;
+}
+
+.next {
+  padding: 1vh 2vw;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next {
+  display: none;
+}
+
+.indicators-grp {
+  width: 100%;
+  padding: 2vh 0;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 150px;
+}
+
+.indicator {
+  padding: 5px;
+  background: rgb(213, 53, 53);
+  border-radius: 50%;
+}
+
+.activeIndicator {
+  background-color: black;
 }
 
 .sec-9 {
@@ -12156,6 +12269,7 @@ nav .btn-1 button {
 
 .sec-10 {
   text-align: center;
+  padding-bottom: 80px;
 }
 .sec-10 span {
   color: red;
@@ -12203,6 +12317,203 @@ nav .btn-1 button {
   background-color: #d74040;
   color: white;
   padding-inline: 30px;
+}
+
+.sec-11 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.sec-11 span {
+  color: red;
+}
+.sec-11 .sub11 {
+  height: 80vh;
+  width: 90%;
+  background-color: red;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.location {
+  box-shadow: 8px 10px 8px 8px rgba(232, 232, 232, 0.9529411765);
+  width: 45%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+}
+.location .sub-loc {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: white;
+}
+
+.loca-res {
+  height: 80vh;
+  width: 90%;
+  box-shadow: 8px 10px 8px 8px rgba(232, 232, 232, 0.9529411765);
+  margin: auto;
+  padding: 40px;
+}
+.loca-res .sub-loc {
+  display: flex;
+  gap: 4px;
+  padding: 10px;
+}
+.loca-res input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.sub-loc1 {
+  width: 100%;
+  padding: 10px;
+}
+
+.sub-loc2 {
+  width: 100%;
+  height: 40vh;
+}
+
+.btndiv {
+  text-align: center;
+  padding-top: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+footer {
+  height: 45vh;
+  width: 100%;
+  background-color: #1f1f24;
+}
+footer .big-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  width: 90%;
+  margin: auto;
+  padding: 50px;
+  border-bottom: solid rgb(84, 84, 84) 1px;
+}
+footer .big-div .sub-big {
+  display: flex;
+  gap: 20px;
+}
+footer i {
+  font-size: 30px;
+  color: red;
+}
+footer .follow .sub-follow {
+  display: flex;
+  gap: 20px;
+}
+footer .copyright {
+  padding: 20px;
+}
+footer .copyright span {
+  color: red;
+}
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 66666;
+}
+
+.modal-wrapper {
+  width: 400px;
+  height: 400px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.open-modal-btn-wrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-modal-btn,
+.open-modal-btn {
+  padding: 10px;
+  background: rgb(255, 2, 2);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 5px;
+  margin-left: auto;
+  margin-right: 8px;
+  cursor: pointer;
+  transform: translateY(20px);
+}
+
+.close-modal-btn {
+  background-color: white;
+}
+
+.close-btn-wrapper {
+  display: flex;
+}
+
+.modal-content {
+  margin: 20px auto;
+  max-width: 210px;
+  width: 100%;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+h1, .h1 {
+  text-align: center;
+}
+
+.back-top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 90%;
+  right: 10px;
+  background-color: #ff0202;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-top i {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,140 @@
+.section7 {
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    padding: 7vh;
+    .center{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      p {
+      text-align: center;
+      margin: auto;
+      }
+      h2 {
+      text-align: center;
+      span {
+          color: rgb(213, 53, 53);
+      }
+      }
+    }
+  }
+
+  .carousel {
+    display: flex;
+    justify-content: space-evenly;
+    .after {
+      position: relative;
+      width: 50%;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 100%;
+        top: 0;
+        left: -5%;
+        background-color: rgb(213, 53, 53);
+      }
+      h6 {
+        width: 53vw;
+      }
+      p {
+        text-align: start;
+      }
+    }
+    div {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+  .carousel-container {
+    padding: 40px;
+    // background-color: red;
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    padding-inline: 5vw;
+    padding-top: 20px;
+    margin-right: 30px;
+  }
+  
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+    margin-left: 20px;
+  }
+  
+  .slide img {
+    width: 100px;
+  }
+  
+  
+  .next {
+    padding: 1vh 2vw;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .next {
+    display: none;
+  }
+  
+  
+  
+  .indicators-grp {
+    width: 100%;
+    padding: 2vh 0;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 150px;
+  }
+  .indicator {
+    padding: 5px;
+    background: rgb(213, 53, 53);
+    border-radius: 50%;
+  }
+  .activeIndicator {
+    background-color: black;
+  }
+  
+  
+  
+  
+  // @media ( max-width: 430px ) {
+  //   .section6 {
+  //     .carousel {
+  //       h6 {
+  //         width: 100vw;
+  //       }
+  //     }
+  //   }
+  //   .carousel-container {
+  //     width: 70vw;
+  //   }
+  //   .slide {
+  //     flex-direction: column;
+  //     gap: 3vw;
+  //     justify-content: start;
+  //     width: 90vw;
+  //   }
+  //   .carousel {
+  //     gap: 15vw;
+  //   }
+  // };
