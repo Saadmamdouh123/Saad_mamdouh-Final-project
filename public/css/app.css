@@ -11919,6 +11919,12 @@ nav .btn-1 button {
 .sec-2 .left-side {
   padding: 20px;
 }
+.sec-2 .left-side h3, .sec-2 .left-side .h3 {
+  line-height: 50px;
+}
+.sec-2 .left-side span {
+  color: red;
+}
 .sec-2 .left-side button {
   background-color: red;
   color: white;
@@ -11993,6 +11999,10 @@ nav .btn-1 button {
 }
 .sec-3 i {
   color: red;
+}
+
+.font {
+  font-family: Saad;
 }
 
 .sec-4 {
@@ -12504,16 +12514,20 @@ h1, .h1 {
   position: fixed;
   top: 90%;
   right: 10px;
-  background-color: #ff0202;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .back-top i {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
   font-size: 40px;
   cursor: pointer;
+}
+
+@font-face {
+  font-family: Saad;
+  src: url(../../public/fonts/PlaywriteFRModerne-VariableFont_wght.ttf);
 }
 
 /*# sourceMappingURL=app.css.map */

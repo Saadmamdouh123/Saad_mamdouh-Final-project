@@ -113,3 +113,19 @@ setInterval(() => {
   let randomnumber = Math.floor(Math.random() * imgg2.length)
   carousel2.style.backgroundImage = 'url("img/ '+ imgg2[randomnumber]+'")'
 }, 6000);
+
+
+let upButton = document.querySelector('.back-top');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) {
+    upButton.style.display = 'block';
+  } else {
+    upButton.style.display = 'none';
+  }
+});
+upButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
